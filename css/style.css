@@ -1,0 +1,337 @@
+/*Import do cdn da font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #18191e;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #272727;
+    border-radius: 30px;
+
+}
+
+/*<==========NAV==========>*/
+
+.logo {
+    position: relative;
+    padding-right: 3vh;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    background: #0e0e14;
+    width: 100%;
+    height: 6vh;
+
+}
+
+.nav a {
+    color: #acaaaa;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    align-items: center;
+}
+
+#ss {
+    padding-right: 35vh;
+    color: #acaaaa;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*<==========NAV==========>*/
+/*<==========CONTENT==========>*/
+
+body {
+    background-color: #18191e;
+    height: 100vh;
+}
+
+hr {
+    margin: -5px 0 15px 0;
+    border: 0;
+    border-radius: 5px;
+    border-top: 1px solid #444444;
+    width: 18vh;
+}
+
+/*<==========LEFT==========>*/
+
+#left {
+    padding-top: 5vh;
+    height: 100%;
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 29%;
+    float: left;
+    justify-content: end;
+    position: fixed;
+    /* background-color: red; */
+}
+
+#left li {
+    padding-bottom: 16px;
+    padding-right: 40px;
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ew {
+
+    border: 0;
+    border-radius: 5px;
+    border-top: 1px solid #444444;
+    width: 18vh;
+}
+
+#left li:hover {
+    color: rgb(138, 138, 138);
+}
+
+#cd {
+    color: rgb(231, 201, 5);
+}
+
+button {
+    display: inline-block;
+    border-radius: 23px;
+    background-color: #faf9f9;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 30px -2px;
+    padding: 3px 50px 3px 50px;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+/*<==========LEFT==========>*/
+/*<==========RIGHT==========>*/
+
+#right {
+    /* background-color:#18191e; */
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 71%;
+    height: 100%;
+    float: right;
+    /* background-color: blue; */
+}
+
+#right li {
+    list-style-type: none;
+}
+
+#we {
+
+    border: 0;
+    border-radius: 5px;
+    border-top: 1px solid #444444;
+    width: 30vh;
+    margin: 3vh 0;
+}
+
+.to-top {
+    color: white;
+    background: #2c2e38;
+    height: 40px;
+    width: 40px;
+    display: grid;
+    place-items: center;
+    font-size: 32px;
+    text-decoration: none;
+    border-radius: 50%;
+    right: 32px;
+    bottom: 16px;
+    position: fixed;
+    opacity: 1;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+/*<==========RIGHT==========>*/
+/*<==========MEMES==========>*/
+
+.mesmes {
+    margin-top: 9vh;
+    border-radius: 5px 5px 0 0;
+    border: 10px;
+    height: 80vh;
+    width: 60vh;
+    background-color: #4355af;
+}
+
+.bx-link-alt {
+    margin-left: 27vh;
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #0675fc;
+}
+
+.bxl-pinterest {
+    margin-left: 5px;
+    padding: 7px 10px;
+    background-color: #bc0c1e;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    ;
+}
+
+.bx-dots-horizontal-rounded {
+    border: 1px solid rgba(82, 82, 82, 0.47);
+    border-radius: 3px;
+    color: #ffffff;
+    margin-top: 5vh;
+    margin-left: 15px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.bx-dots-horizontal-rounded:hover {
+    border-color: #b8b8b8;
+}
+
+#yy {
+    display: flex;
+    flex-direction: row;
+}
+
+#yy li {
+    margin-bottom: -30px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 2vh;
+    padding: 5px;
+    border: 1px solid rgba(82, 82, 82, 0.47);
+    border-radius: 10px;
+}
+
+.ff {
+    background-color: #0c0c14;
+    height: 80px;
+    border-radius: 0 0 5px 5px;
+}
+
+h1 {
+    color: #707070;
+    font-size: 20px;
+}
+
+/*<==========MEMES==========>*/
+/*<==========TAGS==========>*/
+
+.tags {
+    /* Arrumar */
+    margin-left: 5vh;
+    color: rgb(231, 201, 5);
+    margin-top: 10vh;
+    float: right;
+    height: 28vh;
+    width: 30vh;
+    /* background: red;  */
+
+}
+
+h2 {
+    font-weight: bold;
+    color: #706d6c;
+    width: 30vh;
+    margin-bottom: 2vh;
+}
+
+.tags a {
+    border: 1px solid rgba(255, 230, 0, 0.47);
+    border-radius: 10px;
+    width: fit-content;
+    line-height: 4vh;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.tags a:hover {
+    border-color: rgb(255, 221, 0);
+}
+
+.tags span{
+    line-height: 8vh;
+    font-size: 13px;
+    color: #5f686b;
+} 
+
+.tags p{
+    color: #525a5c;
+}
+/*<==========TAGS==========>*/
+/*<==========SOCIALS==========>*/
+.gp {
+    width: 8vh;
+    display: grid;
+}
+
+.gp svg {
+    margin-left: 2vh;
+    height: 20px;
+    width: 20px;
+}
+
+.ap {
+    width: 8vh;
+    display: grid;
+}
+
+.ap svg {
+    margin-left: 2vh;
+    height: 3vh;
+    width: 3vh;
+}
+
+.ap :hover path {
+    fill: #ececec;
+    cursor: pointer;
+}
+
+.socials {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    line-height: 4vh;
+    color: #4a5152;
+    height: fit-content;
+     /* background-color: #0675fc;  */
+}
+/*<==========SOCIALS==========>*/
+/*<==========CONTENT==========>*/
